@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	text-align: center;
+}
+header{
+	height: 100px;
+	background: #262626;
+	width:100%;/*Végig ér az oldalon*/
+	z-index:1; /*Térbeli elhelyezés*/
+	position:fixed;
+}
+.keret{ /*A legtöbb oldalam alapja*/
+		/*Munkafelületet, és a weboldal hátterét állítja be*/
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(kep/11.jpg);
+	/*sötétítés a háttérképen, szürkés szín rátételével*/
+	background-position: center;
+	background-size: cover;
+	/*margók*/
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	box-sizing: border-box;
+}
+.cimke{
+	width: 30%;
+	float:left;
+	line-height: 100px;
+}
+.cimke p{
+	text-decoration: underline overline;
+	font-size: 35px;
+	font-family: bignoodletitling;
+	color:#fff;
+	letter-spacing:5px;
+}
+/*minden oldal tetején lévő navigációs sáv*/
+nav{
+	float:center;
+	line-height:100px;
+	display:flex;
+}
+nav a{
+	height:100px;
+	text-decoration: none;
+	font-family: bignoodletitling;
+	letter-spacing: 4px;
+	font-size: 20px;
+	padding-left:100px;
+	color:#fff;
+}
+.row{ /*a felületen belül kisebb keretet ad a tartalomnak*/
+	display:flex;
+	height:85%;
+	align-items:center;
+}
+/*.kep{
+	width: 400px;
+	height: 500px;
+	border-radius: 20px;
+	box-sizing: border-box;
+	margin-top: 100px;
+	margin-left: 350px;
+	background-image: url(kep/4.jpg);
+	background-position: center;
+	background-position: cover;
+	background-size: 500px;
+	min-height: 500px; 
+	min-width: 400px;
+}*/
+
+.kepkezdolap{
+	padding-left: 270px;
+	padding-top: 150px;
+
+}
+.kepkezdolap img{
+	border-radius: 35px;
+	min-height: 500px; /*A méretminimumokat azért adtam meg, hogy az oldal átméretezésénél a kép ne menjen össze*/
+	min-width: 500px;
+
+}
+.name{
+	margin-left: 225px;
+	margin-top: 100px;
+	font-size: x-large;
+	color: #fff;
+}
+/*Kezdolap vege*/
+/*Oneletrajz*/
+.oneletrajz{
+	display:flex;
+	padding-left: 25%;
+	width:40vw;
+	margin-top: 100px;
+	margin-bottom: 75px;
+	align-items: center;
+	text-align: justify; /*sorkizárt*/
+	max-height: 80%;
+	min-width: 500px;
+}
+.oneletrajz p{
+	height: 85%;
+	font-size: large;
+	color: #fff;
+}
+
+.szovegbox{
+
+
+}
+.gomb1{ /*oneletrajz oldal navigációs gombjainak elhelyezése*/
+	float: right;
+	bottom: 40px;
+	position: absolute;
+	right: 125px;
+	
+}
+.gomb2{
+	float: left;
+	bottom: 40px;
+	position: absolute;
+}
+/*Munkaim*/
+
+.munkaim{
+	
+}
+
+/*Terv*/
+.terv{
+	color: #fff;
+	font-size: 17px;
+	font-family: Comic Sans MS;
+	font-style: italic;
+	width: 40vw;
+	padding-top: 20vh;
+	text-align: justify;
+	height: 100%;
+}
+
+.kep2{
+	margin-left: 100px;
+	margin-top: 100px;
+}
+
+/*Kapcsolat*/
+.kapcsolat{
+	width: 100%;
+	height:450px;
+	padding-top: 200px;
+	padding-bottom: 50px;
+	padding-right: 100px;
+	padding-left: 100px;
+	box-sizing: border-box;
+	float: right;
+}
+.kapcsolat img{
+	margin-right: 35px;
+
+
+}
+
+
+
+
+
